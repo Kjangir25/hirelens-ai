@@ -1,0 +1,28 @@
+body {
+  background: #0a0a0a;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  background-image: radial-gradient(circle at top, #1a1a2e 0%, #000000 70%);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  background: linear-gradient(135deg, #ff0055, #9900ff);
+  border: none;
+  padding: 12px 28px;
+  border-radius: 30px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 0 20px #9900ff88;
+  transition: 0.3s;
+}
+
+button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 30px #ff0055aa;
+}
