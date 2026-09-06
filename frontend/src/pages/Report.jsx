@@ -46,7 +46,7 @@ export default function ReportPage() {
           <div style={{marginTop:'14px', display:'flex', flexDirection:'column', gap:'6px'}}>
             <p style={{color:'var(--text-main)'}}><b>Confidence:</b> {answered === 0? '0% (No answer given)' : `${Math.max(20, (answered*12))}%`}</p>
             <p style={{color:'var(--text-main)'}}><b>Communication:</b> {answered === 0? 'Poor - No response detected' : answered < 4? 'Average - Try to speak more' : 'Good'}</p>
-            <p style={{color:'var(--text-main)'}}><b>Expression:</b> {answered === 0? 'Not detected -No response was received on the camera.' : 'Average - Eye contact improve karo'}</p>
+            <p style={{color:'var(--text-main)'}}><b>Expression:</b> {answered === 0? 'Not detected - No response was received on the camera.' : 'Average - Eye contact improve karo'}</p>
           </div>
         </div>
 
