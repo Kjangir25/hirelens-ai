@@ -39,8 +39,8 @@ export default function ReportPage() {
           
           {unanswered > 0 && (
             <div style={{background:'#fee2e2', border:'1px solid #fecaca', color:'#991b1b', padding:'12px', borderRadius:'8px', marginTop:'12px', fontSize:'13px'}}>
-              ❌ Aapne {unanswered} questions ka answer nahi diya. Isse aapka confidence score low hoga.<br/>
-              <b>Solution:</b> Har sawal ka kuch na kuch jawab do, chup mat raho. "I will learn this" bhi bol sakte ho.
+              ❌ You {unanswered}  did not answer my question. That's why your confidence score is low.<br/>
+              <b>Solution:</b> Please answer every question with something, don't stay silent. You can even say 'I will learn this'.
             </div>
           )}
           <div style={{marginTop:'14px', display:'flex', flexDirection:'column', gap:'6px'}}>
