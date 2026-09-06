@@ -11,7 +11,7 @@ export default function Welcome() {
         <h1>Welcome to <br /><span className="purple">HireLens AI</span></h1>
         <p className="small-text">Practice real interviews. Get your resume analyzed and receive instant feedback on confidence, eye contact and posture.</p>
         <div className="btn-right">
-          <button className="btn-white" onClick={() => navigate('/login')}>Let's Start →</button>
+          <button className="btn-white" onClick={() => navigate('/Info')}>Let's Start →</button>
         </div>
       </div>
     </div>
