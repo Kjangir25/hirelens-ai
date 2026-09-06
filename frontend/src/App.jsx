@@ -2,7 +2,6 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { useState } from 'react'
 import { ThemeProvider } from './ThemeContext'
 import Welcome from './pages/Welcome'
-import Login from './pages/Login'
 import Info from './pages/Info'
 import Profile from './pages/Profile'
 import InterviewPage from './pages/Interview'
@@ -43,7 +42,6 @@ function AppContent() {
   return (
     <Routes>
       <Route path="/" element={<Welcome />} />
-      <Route path="/login" element={<Login />} />
       <Route path="/info" element={<Info form={form} upd={upd} resumeFile={resumeFile} handleResumeUpload={handleResumeUpload} />} />
       <Route path="/profile" element={<Profile form={form} upd={upd} />} />
       <Route path="/interview" element={<InterviewPage />} />
