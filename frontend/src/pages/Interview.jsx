@@ -1,7 +1,7 @@
 import './Interview.css'
 import { useState, useRef, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom'
-import { getQuestionsByRole } from '../data/questions.js' 
+import { getQuestionsByRole } from '../data/questions.js'
 
 export default function InterviewPage() {
   const navigate = useNavigate();
@@ -72,7 +72,7 @@ export default function InterviewPage() {
           </div>
         </div>
         <div className="btn-right">
-          <button className="btn-white" onClick={handleNext}>{qIndex === allQuestions.length - 1? 'Finish →' : 'Next Question →'}</button>
+          <button className="btn-white" onClick={handleNext}>{qIndex === allQuestions.length - 1 ? 'Finish →' : 'Next Question →'}</button>
         </div>
       </div>
     </div>

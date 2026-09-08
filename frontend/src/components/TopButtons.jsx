@@ -10,7 +10,7 @@ export default function TopButtons() {
   return (
     <div style={{ position: 'fixed', top: '20px', right: '20px', zIndex: 100, display: 'flex', gap: '12px', alignItems: 'center' }}>
       <button onClick={toggleTheme} className="theme-btn-glass">
-        {theme === 'dark'? '☀️ Light' : '🌙 Dark'}
+        {theme === 'dark' ? '☀️ Light' : '🌙 Dark'}
       </button>
       {savedData?.name && (
         <button onClick={() => navigate('/profile')} title="My Profile"

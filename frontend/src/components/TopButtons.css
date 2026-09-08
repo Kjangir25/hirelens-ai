@@ -1,3 +1,28 @@
-.top-buttons-fixed{ position:fixed; top:20px; right:20px; z-index:100; display:flex; gap:12px; }
-.theme-btn-glass{ padding:8px 14px; border-radius:20px; border:1px solid var(--border); background:var(--card-bg); color:var(--text-main); cursor:pointer; }
-.profile-circle-btn{ width:40px; height:40px; border-radius:50%; background:var(--card-bg); color:var(--text-main); border:1px solid var(--border); font-weight:800; cursor:pointer; }
+.top-buttons-fixed {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 100;
+    display: flex;
+    gap: 12px;
+}
+
+.theme-btn-glass {
+    padding: 8px 14px;
+    border-radius: 20px;
+    border: 1px solid var(--border);
+    background: var(--card-bg);
+    color: var(--text-main);
+    cursor: pointer;
+}
+
+.profile-circle-btn {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: var(--card-bg);
+    color: var(--text-main);
+    border: 1px solid var(--border);
+    font-weight: 800;
+    cursor: pointer;
+}

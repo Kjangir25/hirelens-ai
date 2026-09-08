@@ -17,6 +17,6 @@ export const ROLE_QUESTIONS = {
 };
 
 export const getQuestionsByRole = (role) => {
-  return [...COMPULSORY_QUESTIONS,...(ROLE_QUESTIONS[role] || ROLE_QUESTIONS.Other).slice(0,5)];
+  return [...COMPULSORY_QUESTIONS, ...(ROLE_QUESTIONS[role] || ROLE_QUESTIONS.Other).slice(0, 5)];
 };
 
